@@ -48,13 +48,10 @@ python 3.12以上<br>
 - 音声認識がうまくいかない場合、マイクの設定を確認してください。
 - 音声認識モデルのバージョンが古い場合、最新のモデルをダウンロードしてください。
 - PyAudioでエラーが出るとき
-WindowsではPyAudioのインストールにpipwinを使用することをお勧めします。以下のコマンドを実行してください。
     ```bash
+    #Windows
     pip install pipwin
     pipwin install pyaudio
-    ```
-MacOSやLinuxでは、PyAudioのインストールに以下のコマンドを使用します。
-    ```bash
     #MacOS
     brew install portaudio
     pip install pyaudio
